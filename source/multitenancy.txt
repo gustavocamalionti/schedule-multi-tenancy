@@ -1,0 +1,18 @@
+Multi tenanty = Multi locatário
+
+- Single database
+- Multi database
+
+- Tenants
+
+- Subdomínio -> CNAME
+
+- Spatie
+- TenancyForLaravel
+
+- Subdomínio -> local
+
+- DNS -> *.dominio.com.br
+
+- Virtualhost -> Não funciona Subdomínio
+- Localhost -> teste.localhost
