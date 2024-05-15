@@ -14,14 +14,10 @@ use App\Http\Controllers\Auth\EmailVerificationNotificationController;
 
 Route::middleware('guest')->group(function () {
     // Route::get('register', [RegisteredUserController::class, 'create'])->name('register');
-
     // Route::post('register', [RegisteredUserController::class, 'store']);
 
-    Route::get('login', [AuthenticatedSessionController::class, 'tenantCreate'])->name('tenant.login.create');
-    Route::get('login', [AuthenticatedSessionController::class, 'adminCreate'])->name('admin.login.create');
-    
     Route::post('login', [AuthenticatedSessionController::class, 'store'])->name('login');
-   
+
     Route::get('forgot-password', [PasswordResetLinkController::class, 'create'])->name('password.request');
 
     Route::post('forgot-password', [PasswordResetLinkController::class, 'store'])->name('password.email');
