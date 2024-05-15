@@ -22,10 +22,3 @@ Multi tenanty = Multi locatário
     1. Rotas para o dashboard principal(administrador) precisam ser criadas na web.php
     2. Rotas para o tenant () criadas no arquivo tenant.php
     3. migrations para o tenant dentro da pasta tenant
-    4. nas configurações do nginx, em 00-default.conf, altere:
-        location / {
-            try_files $uri $uri/ /index.php$is_args$args;
-		    autoindex on;
-        }
-
-        root "C:/Users/Gustavo/Documents/programacao/swift-schedule-multi-tenancy/source/public";
