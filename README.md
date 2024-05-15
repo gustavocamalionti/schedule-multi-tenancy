@@ -1,6 +1,7 @@
 # swift-schedule-multi-tenancy
  
 https://laravel.com/docs/11.x
+https://laravel.com/docs/11.x/starter-kits#breeze-and-blade
 https://tenancyforlaravel.com/docs/v3/quickstart/
 https://www.mysql.com/
 https://www.nginx.com/
