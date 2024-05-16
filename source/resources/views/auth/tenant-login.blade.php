@@ -1,7 +1,7 @@
 <x-guest-layout>
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
-    Seja bem vindo, <span style="color:red">{{ strtoupper(tenant('id')) }}</span>
+    Seja bem vindo, <span class="text-danger">{{ strtoupper(tenant('id')) }}</span>
     <form method="POST" action="{{ route('login') }}">
         @csrf
 

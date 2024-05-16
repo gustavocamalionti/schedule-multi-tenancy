@@ -17,7 +17,7 @@ class AuthenticatedSessionController extends Controller
      */
     public function adminCreate(): View
     {
-        return view('auth.admin_login');
+        return view('auth.admin-login');
     }
 
     /**
@@ -25,7 +25,7 @@ class AuthenticatedSessionController extends Controller
      */
     public function tenantCreate(): View
     {
-        return view('auth.tenant_login');
+        return view('auth.tenant-login');
     }
 
     /**

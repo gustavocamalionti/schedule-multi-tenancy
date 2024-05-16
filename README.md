@@ -1,16 +1,9 @@
 # swift-schedule-multi-tenancy
  
-https://laravel.com/docs/11.x
-https://laravel.com/docs/11.x/starter-kits#breeze-and-blade
-https://tenancyforlaravel.com/docs/v3/quickstart/
-https://www.mysql.com/
-https://www.nginx.com/
-https://laragon.org/index.html (botao-direito-tela/nginx/sites-enabled/00-default.conf)
-    - em root, altere:
-        root "C:/Users/Gustavo/Documents/programacao/projeto/source/public";
-
-    - também em location:
-         location / {
-            try_files $uri $uri/ /index.php$is_args$args;
-		    autoindex on;
-        }
+https://laravel.com/docs/11.x <br>
+https://laravel.com/docs/11.x/starter-kits#breeze-and-blade <br>
+https://medium.com/@skpassegna/how-to-install-bootstrap-5-with-laravel-10-11-2fcc8c4f1453 <br>
+https://tenancyforlaravel.com/docs/v3/quickstart/ <br>
+https://www.mysql.com/ <br>
+https://www.nginx.com/ <br>
+https://laragon.org/index.html
